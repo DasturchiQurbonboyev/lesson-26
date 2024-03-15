@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.card-img-top {
+    width: 246px;
+    height: 246px;
+}
+
+.card-title {
+    width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* display: inline-block; */
+}
+
+
+.label-category,
+.yulduzcha-rating,
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 24px;
+    text-align: left;
+    color: #ADADAD;
+}
+
+.card-title {
+    letter-spacing: 0em;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    color: #253D4E;
+}
+
+
+
+.card-text span {
+    color: #3BB77E;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3BB77E;
+}
+
+.label-btn,
+.label-btn a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label-btn a {
+    gap: 15px;
+}
+
+.price h1 {
+    color: #F53E32;
+}
+
+
+
+
+/*---------------------- Log Out ------------------*/
+
+
+
